@@ -1,13 +1,16 @@
+/* all elements are in a content box within the parent container */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* background color of webpage */
 body {
     background-color: #d9dcd6;
 }
 
+/* header color and font, padding around header content*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,11 +18,13 @@ body {
     color: #ffffff;
 }
 
+/* allow other elements to sit next to h1*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* change the color of the span element within the header */
 .header h1 .seo {
     color: #d9dcd6;
 }
