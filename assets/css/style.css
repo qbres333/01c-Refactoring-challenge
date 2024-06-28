@@ -3,11 +3,13 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    color: #ffffff;
 }
 
 /* background color of webpage */
 body {
     background-color: #d9dcd6;
+    color: #ffffff;
 }
 
 /* header color and font, padding around header content*/
@@ -29,6 +31,7 @@ body {
     color: #d9dcd6;
 }
 
+/* style navigation links within header, align right */
 .header section {
     padding-top: 15px;
     margin-right: 20px;
@@ -37,24 +40,29 @@ body {
     font-size: 20px;
 }
 
+/* remove default list item marker */
 .header section ul {
     list-style-type: none;
 }
 
+/* display nav links inline-block so padding/margin are adjustable (not adjustable with inline)*/
 .header section ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* style anchor elements */
 a {
-    color: #ffffff;
+    /* color: #ffffff; */
     text-decoration: none;
 }
 
+/* style paragraph elements */
 p {
     font-size: 16px;
 }
 
+/* set main image size, position and content */
 .main-pic-meeting {
     height: 800px;
     width: 100%;
@@ -64,22 +72,26 @@ p {
     background-position: center;
 }
 
+/* align element to the left of the container */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* align element to the right of the container */ 
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* set content section size to 75% of the viewport width, with margins */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* style benefit container, align right*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -91,20 +103,14 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
+/* style all benefits */
+.benefit-lead,
+.benefit-brand, 
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
+
 
 .benefit-lead h3 {
     margin-bottom: 10px;
