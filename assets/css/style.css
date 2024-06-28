@@ -11,7 +11,7 @@ body {
     background-color: #d9dcd6;
 }
 
-/* header color and font, padding around header content*/
+/* header color and font, padding around header content */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -69,6 +69,13 @@ p {
     background-position: center;
 }
 
+/* set content section size to 75% of the viewport width, with margin */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
 /* align element to the left of the container */
 .float-left {
     float: left;
@@ -79,13 +86,6 @@ p {
 .float-right {
     float: right;
     margin-left: 25px;
-}
-
-/* set content section size to 75% of the viewport width, with margins */
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
 }
 
 /* style content boxes */
